@@ -4,10 +4,6 @@ function $(param){
 
 function elkuld(){
     const rendszam = $("rendszam").value;
-    /*fetch(`/auto/${rendszam}`, {
-        method: "GET"
-      })
-    */
       location.replace(`/auto/${rendszam}`);
 }
 

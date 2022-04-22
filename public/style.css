@@ -1,107 +1,73 @@
-:root{
-    --bgFooter: #22577E;
-    --colorFooter: #95D1CC;
-    --btnHoverColor: #FAFFAF;
-    --btnHoverBGColor: #008E89;
-    --btnLekerdezoColor: #5584AC;
-    --btnModositoColor: #95D1CC;
-    --btnTorloColor: #D82148;
-    --frameHeigth: 40px;
-    --bgColor: #FAFFAF;
-
-    /*
-    colors: https://www.colorhunt.co/palette/22577e5584ac95d1ccfaffaf
-    */ 
-}
 
 body{
-    background-color: white;
-
+    background-color: rgb(88, 1, 1);
 }
-
 .container{
-    background-color: var(--bgColor);
+    background-color:gray;
 }
-
 select{
     margin: 15px;
 }
-
 button{
     margin: 5px;
-    color: white;
+    color: yellow;
     font-weight: bold;
-    
-    box-shadow: 1px 1px 2px var(--bgFooter);
+    box-shadow: 1px 1px 2px wheat;
     border-radius: 8px;
     padding: 7px;
 }
-
 .btnLekerdezo{
-    background-color: var(--btnLekerdezoColor);
-    border: 1px solid var(--btnModositoColor);
+    background-color: black;
+    border: 1px solid red;
 }
-
 .btnModosito{
-    background-color: var(--btnModositoColor);
-    border: 1px solid var(--btnLekerdezoColor);
+    background-color: black;
+    border: 1px solid red;
 }
-
 .btnTorlo{
-    background-color: var(--btnTorloColor);
-    border: 1px solid crimson;
+    background-color: black;
+    border: 1px solid red;
 }
-
 button:hover{
     cursor: pointer;
-    background-color:var(--btnHoverBGColor);
-    color: var(--btnHoverColor)
+    background-color:black;
+    color: yellow;
 }
-
 h1{
     margin-top: 20px;
     margin-bottom: 30px;
     padding: 20px;
-    background-color: var(--bgFooter);
-    color: var(--bgColor);
+    background-color: wheat;
+    color: black;
     text-align: center;
     border-bottom: 3px solid var(--btnModositoColor);
 }
-
 p, label{
     font-weight: bold;
 }
-
 #ide1{
     font-size: 25px;
     color: red;
     text-shadow: 1px 1px #22577E;
 }
-
 table{
     margin-top: 20px;
-    
 }
-
 #footer {
-    background-color: var(--bgFooter);
-    color: var(--colorFooter);
-    height: var(--frameHeigth);
+    background-color: rgb(0, 0, 0);
+    color: yellow;
     margin: 10px auto 0 auto;
     position: absolute;
     right: 0;
     left: 0;
     bottom: 0;
 }
-
 .item{
     text-align: right;
 }
-
 h5{
     text-align:center
 }
-
 h5 .fontos{
     color: crimson;
 }
